@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+ 
+    background-image: linear-gradient(120deg,#e2c35d,#d88771);
+    color: #351818;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 80vh;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+ 
+ 
+ 
+ }
+ .container{
+    width: 360px;
+    text-align: center;
+    margin-left: 31%;
+     margin-top: 8%;
+ 
+ }
+ h1{
+    margin-top: 10%;
+    color: rgb(73, 62, 145);
+ }
+ #input-file{
+    width: 210px;
+    height: 33px;
+    border: 1px solid rgb(83, 43, 43);
+    outline: none;
+    font-size: 15px;
+    vertical-align: middle;
+    border-radius: 10px;
+    color: rgb(24, 3, 3);
+    font-weight: 600;
+    background-color: transparent;
+ 
+ 
+ }
+ #addtodo{
+    height: 33px;
+    width: 50px;
+    border: 1px solid rgb(85, 70, 170);
+    color:black;
+    vertical-align: middle;
+    font-size: 30px;
+    background-color: rgb(154, 96, 202);
+    border-radius: 5px;
+ }
+ .todo{
+    margin-top: 25px;
+ 
+ }
+ .paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+ }
+ #addtodo i{
+    font-size: x-large;
+ }
+ .container :placeholder-shown{
+    text-align: center;
+    font-size: medium;
+    font-display: 20PX;
+    color: blue;
+ }
